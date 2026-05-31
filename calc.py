@@ -7,6 +7,13 @@ while True:
         print(num1+num2)
     elif oper=='subtract':
         print(num1-num2)
+   
+    elif oper=='multiply':
+        print(num1*num2)
+    elif oper=='divide':
+        print(num1/num2)
+    
     ans=input('do you want to do more operations')
     if ans in 'nN':
         break
+   
